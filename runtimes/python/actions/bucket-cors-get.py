@@ -9,8 +9,6 @@
 #     "bucket": "your COS bucket name",
 #   }
 
-import sys
-import json
 import ibm_boto3
 from ibm_botocore.client import Config, ClientError
 
