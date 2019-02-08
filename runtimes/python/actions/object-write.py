@@ -13,7 +13,7 @@
 import sys
 import json
 import ibm_boto3
-from ibm_botocore.client import Config
+from ibm_botocore.client import Config, ClientError
 
 def main(args):
   resultsGetParams = getParamsCOS(args)
